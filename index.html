@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Alura</title>
+
+</head>
+<body>
+    <header>
+    <h1>Encriptador/Desencriptador</h1>
+    <div class="corpo">
+        <div class="direita">
+            <section>
+                <textarea class="text-area" placeholder="Digite o texto"></textarea>
+            </section>
+
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="btnEcriptar()">Encriptar</button>
+                <button class="btn-encriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+
+        <section class="direita">
+            <textarea class="mensagem" ></textarea>
+            <button class="copia" onclick="copiaTexto()"> copiar</button>
+        </section>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
